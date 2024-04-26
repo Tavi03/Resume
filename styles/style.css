@@ -30,30 +30,36 @@ sidebar {
     flex-direction: column;
     background-color: #fafafa;
     width: 34%;
-    /* width: 70%; */
     height: 100%;
-    /* border: 1px solid black; */
+}
+
+.sidebar_category {
+    text-align: right;
+    color: #212529;
+    margin: 20px 10px 0 0;
 }
 
 .contact {
-    width: 90%;
-    margin: 0 10px;
-    margin-bottom: 20px;
+    /* width: 100%; */
+    margin: 20px 10px 0 0;
+    text-align: right;
 }
 
-.contact h2 {
-    text-align: right;
-    margin-bottom: 0;
+.sidebar_category_title {
+    margin: 0;
+    color: black;
 }
 
 .contact ul {
     list-style-type: none;
-    /* margin: 0; */
-    margin-top: 8px;
+    /* margin-top: 8px;
+    margin-bottom: 0; */
+    margin: 8px 0 0 0;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact a {
@@ -69,13 +75,23 @@ sidebar {
 }
 
 .contact img {
-    max-width: 20px;
-    opacity: 70%;
+    max-width: 15px;
     height: auto;
+    opacity: 70%;
     margin-left: 5px;
 }
 
 .education {
     text-align: right;
     color: #212529;
+    margin: 20px 10px 0 0;
+}
+
+.education_information {
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.education_information p {
+    margin: 7px 0;
 }
