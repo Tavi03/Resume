@@ -5,11 +5,9 @@ body {
 
 .resume_body {
     margin: 0 auto;
-    /* width: 55%; */
-    /* height: 1000px; */
     background-color: white;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    width: 1200px;
+    width: 1000px;
 }
 
 header {
@@ -28,7 +26,6 @@ header {
 
 .main_page {
     display: flex;
-    /* flex-wrap: wrap; */
 }
 
 .sidebar {
@@ -103,8 +100,16 @@ header {
     color: #212529;
 }
 
+.content-category {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 75%;
+    text-align: justify;
+}
+
 .category-title {
     color: black;
+    margin: 0;
 }
 
 .category-element {
@@ -115,9 +120,13 @@ header {
     margin: 0;
 }
 
-.category-element > a {
+.link > a {
     text-decoration: none;
     color: #212529;
+}
+
+.link a:hover {
+    color: blue;
 }
 
 .category-element ul {
@@ -126,4 +135,8 @@ header {
 
 .category-element p {
     margin: 16px 0 0 0;
+}
+
+.link {
+    margin: 10px 0;
 }
