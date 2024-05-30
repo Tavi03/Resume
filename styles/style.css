@@ -116,8 +116,16 @@ header {
     margin: 20px 10px;
 }
 
+.category-element h4 {
+    margin: 10px 0;
+}
+
 .category-subtitle {
     margin: 0;
+}
+
+.prog-lang {
+    margin-bottom: 20px;
 }
 
 .link > a {
